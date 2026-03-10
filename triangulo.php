@@ -1,9 +1,9 @@
 <?php
-$tamano = 5;
+$tamaño = 5;
 
-for ($i = 1; $i <= $tamano; $i++) {
+for ($i = 1; $i <= $tamaño; $i++) {
 
-    for ($j = $i; $j < $tamano; $j++) {
+    for ($j = $i; $j < $tamaño; $j++) {
         echo "&nbsp; ";
     }
 
@@ -13,4 +13,6 @@ for ($i = 1; $i <= $tamano; $i++) {
 
     echo "<br>";
 }
+
+#trabajo de Jonnathan Maldonado y Sebastian Flores
 ?>

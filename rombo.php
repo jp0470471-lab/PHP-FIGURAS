@@ -1,11 +1,11 @@
 <?php
 
-$tamano = 5;
+$tamaño = 5;
 
-// Parte superior
-for ($i = 1; $i <= $tamano; $i++) {
 
-    for ($j = $i; $j < $tamano; $j++) {
+for ($i = 1; $i <= $tamaño; $i++) {
+
+    for ($j = $i; $j < $tamaño; $j++) {
         echo "&nbsp; ";
     }
 
@@ -16,10 +16,10 @@ for ($i = 1; $i <= $tamano; $i++) {
     echo "<br>";
 }
 
-// Parte inferior
-for ($i = $tamano-1; $i >= 1; $i--) {
 
-    for ($j = $tamano; $j > $i; $j--) {
+for ($i = $tamaño-1; $i >= 1; $i--) {
+
+    for ($j = $tamaño; $j > $i; $j--) {
         echo "&nbsp; ";
     }
 
@@ -29,4 +29,5 @@ for ($i = $tamano-1; $i >= 1; $i--) {
 
     echo "<br>";
 }
+#trabajo de Jonnathan Maldonado y Sebastian Flores
 ?>
